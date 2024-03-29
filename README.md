@@ -13,6 +13,7 @@ This project includes the following services:
 - Kedro: usefull to organize structured ML pipeline code, that can be exported to ariflow them to be executed and scheduled.
 - MLFlow server: It has so many uses, to monitor model training jobs, artifact, trainig
 - Great Expectations: integregated on data pipelines to verify data quality.
+- Minio: MinIO is a high-performance, S3 compatible object store.
 
 ### Requirements
 
@@ -65,3 +66,11 @@ Result
  ✔ Container mlplatform-web-1
 ```
 
+### Web UIs
+
+- Airflow server UI on: http://localhost:8080/
+- MLFlow Tracking UI: http://localhost:5000/
+- MINIO UI (Object store like S3): http://localhost:9001/
+
+
+``````
